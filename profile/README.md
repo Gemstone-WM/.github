@@ -1,4 +1,5 @@
-## Hi there 👋
+# Welcome to Gemstone !
+## Gemstone is an upcoming entire desktop ecosystem, from compositor to bar and widgets !
 
 <!--
 
