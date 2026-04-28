@@ -3,18 +3,22 @@
 Gemstone is an upcoming desktop ecosystem for Linux — 
 from compositor to bar, dock and widgets.
 
+It's main purpose is to be heavily customizable by both beginners and power users through GUIs and configs
+
+The documentation is built to be detailed while keeping it simple and clear.
+
 ## Packages
 
 | Package | Description |
 |---|---|
 | `gemstone` | The Wayland compositor |
+| `gemstone-lib` | Shared depedency for Gemstone related packages to make them connected |
 | `gemstone-bar` | Standalone topbar with Dynamic Island-style pill |
 | `gemstone-dock` | Standalone macOS-like dock |
+| `gemstone-gui` | Package including the configuration GUI, optional but recommanded for beginners |
 
 ## Built on
 - C + wlroots + Wayland
-- Lua widget scripting
-- Designed to be lightweight, configurable and beginner friendly
 <!--
 
 **Here are some ideas to get you started:**
