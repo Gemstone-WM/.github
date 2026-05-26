@@ -1,9 +1,12 @@
-Gemstone
+<div align="center">
 
-an upcoming desktop ecosystem for Linux
+# Gemstone
+### an upcoming desktop ecosystem for Linux
 compositor | bar | dock | widgets
 
-Here, Linux beginners are as powerful as nerds
+*Here, Linux beginners are as powerful as nerds*
+
+</div>
 
 ## Featuring
 
