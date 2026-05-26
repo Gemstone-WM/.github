@@ -1,31 +1,42 @@
-# Welcome to Gemstone !
+Gemstone
 
-Gemstone is an upcoming desktop ecosystem for Linux — 
-from compositor to bar, dock and widgets.
+an upcoming desktop ecosystem for Linux
+compositor | bar | dock | widgets
 
-It's main purpose is to be heavily customizable by both beginners and power users through GUIs and configs
+Here, Linux beginners are as powerful as nerds
 
-The documentation is built to be detailed while keeping it simple and clear.
+## Featuring
 
-## Packages
+### Plugin system
+Anyone can build new plugins that modify the behavior of existing elements or create new ones
+Customizable through the Settings GUI
+
+### Glassy effect
+Gemstone is heavily inspired by macOS and has its own glass shader that once again is completely customizable
+
+Want it less blurry ? Just tweak that blur slider !
+
+## Built on
+C · wlroots · Wayland
+
+## Multiple Packages
+Gemstone is made of multiple packages to stay easy to maintain and because it's important to us to give users the choice
+
+You like the bar but you're a simple Hyprland user ? Just take it !
+
+Packages names should be the same across Linux distributions
+
+You use Arch btw ? Gemstone is available for ya !
 
 | Package | Description |
 |---|---|
 | `gemstone` | The Wayland compositor |
-| `gemstone-lib` | Shared depedency for Gemstone related packages to make them connected |
+| `gemstone-lib` | Shared dependency for Gemstone related packages to make them connected |
 | `gemstone-bar` | Standalone topbar with Dynamic Island-style pill |
-| `gemstone-dock` | Standalone macOS-like dock |
-| `gemstone-gui` | Package including the configuration GUI, optional but recommanded for beginners |
+| `gemstone-dock` | Standalone dock |
+| `gemstone-settings` | Package including the configuration GUI, optional but recommended for beginners |
+| `gemstone-store` | Community-held store for new plugins/widgets |
 
-## Built on
-- C + wlroots + Wayland
-<!--
-
-**Here are some ideas to get you started:**
-
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+## Contributing
+Gemstone's core is being built but it's really ambitious alone. 
+Wanna help build the heaven of Linux desktop experience? You can contribute to the project!
